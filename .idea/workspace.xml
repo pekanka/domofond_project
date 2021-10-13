@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="574c5615-7c6c-4782-97aa-b361750e9f7f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cheap_apart_pred.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_prep.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exp_apart_pred.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html_parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metro_enc.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pr_destribute.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pr_selector.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pred.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +40,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="jdk.selected.PYTHON_MODULE" value="Python 3.9 (untitled)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/models" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15527344" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -77,5 +90,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

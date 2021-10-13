@@ -11,7 +11,7 @@ import _pickle as cPickle
 
 
 def dta_metro(a):
-    with open("metro_enc.pkl", "rb") as f:
+    with open("models/metro_enc.pkl", "rb") as f:
         enc = cPickle.load(f)
     ohe = []
     for i in range(len(a)):

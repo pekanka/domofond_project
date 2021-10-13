@@ -7,11 +7,11 @@ from sklearn import model_selection
 from sklearn import preprocessing
 from sklearn import metrics
 from sklearn import cluster
-from html_parser import pars
-import data_prep
-from pr_destribute import pr_dest
+from scripts.html_parser import pars
+from scripts import data_prep
+from scripts.pr_destribute import pr_dest
 import _pickle as cPickle
-import pred
+from scripts import pred
 import typer
 
 app = typer.Typer()
@@ -19,7 +19,7 @@ app = typer.Typer()
 @app.command()
 def main(link: str):
     data = np.array(list(pars(link).values()))
-    with open("pr_selector.pkl", "rb") as f:
+    with open("models/pr_selector.pkl", "rb") as f:
         slc = cPickle.load(f)
     data, tar = data_prep.prepare(data)
     data = data.astype(float)
