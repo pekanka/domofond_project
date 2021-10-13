@@ -8,5 +8,13 @@ from sklearn import preprocessing
 from sklearn import metrics
 from sklearn import cluster
 from html_parser import pars
+import data_prep
+from pr_destribute import pr_dest
+import _pickle as cPickle
+import pred
 
-print(np.array(list(pars('https://www.domofond.ru/2-komnatnaya-kvartira-v-arendu-moskva-2425453201').values())))
+data = np.array(list(pars('https://www.domofond.ru/2-komnatnaya-kvartira-v-arendu-moskva-1654620527').values()))
+with open("pr_selector.pkl", "rb") as f:
+    slc = cPickle.load(f)
+data = data_prep.prepare(data)[0].astype(float)
+print(pred.pr_price(data))
